@@ -13,8 +13,8 @@ def find_words(m):
     word_length = str(round(count_characters / count_words, 2))  # finds average word length
 
     print(f'There are {count_words} words.'
-          + f'There are {count_characters} characters.'
-          + f'Average word length is \'{word_length}\' characters.\n')
+          + f'\nThere are {count_characters} characters.'
+          + f'\nAverage word length is \'{word_length}\' characters.\n')
 
 
 def sentence_length(n):
