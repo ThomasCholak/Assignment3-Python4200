@@ -30,7 +30,7 @@ print(f'\nThe values for \'Amanda\' and \'Maxine\' are:\n{temp_format[["Amanda",
 
 # G
 print(f'\nThe values for rows \'Morning\' and \'Evening\''
-      + f' and columns \'Amanda\' and \'Maxine\''
+      + f' and columns \'Amanda\' and \'Maxine\'\n'
       + f'{temp_format.loc[["Morning", "Afternoon"], ["Amanda", "Maxine"]]}\n')
 
 # H
